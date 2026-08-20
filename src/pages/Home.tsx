@@ -116,26 +116,26 @@ const Home = () => {
           {hasReport ? (
             <motion.div variants={itemVariant} className="flex-1 flex flex-col overflow-y-auto hide-scrollbar -mx-5 px-5 space-y-5 pb-2">
               {/* Health Overview */}
-              <div className="bg-white/60 dark:bg-white/5 rounded-[24px] p-5 shadow-sm border border-white/50 dark:border-white/10 backdrop-blur-md">
-                 <h3 className="text-[15px] font-semibold text-foreground mb-4">Here's an overview of your health</h3>
-                 <ul className="space-y-3 mb-5">
+              <div className="bg-white/60 dark:bg-white/5 rounded-[22px] py-4 px-4.5 shadow-sm border border-white/50 dark:border-white/10 backdrop-blur-md">
+                 <h3 className="text-[14.5px] font-semibold text-foreground mb-3">Here's an overview of your health</h3>
+                 <ul className="space-y-2 mb-3.5">
                     <li className="flex items-center gap-2.5">
                        <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
-                       <span className="text-[14.5px] font-medium text-foreground">Cholesterol</span>
-                       <span className="text-[11.5px] font-semibold text-red-600 bg-red-100 dark:bg-red-950/50 dark:text-red-400 px-2 py-0.5 rounded-full">High</span>
+                       <span className="text-[14px] font-medium text-foreground">Cholesterol</span>
+                       <span className="text-[11px] font-semibold text-red-600 bg-red-100 dark:bg-red-950/50 dark:text-red-400 px-2 py-0.5 rounded-full">High</span>
                     </li>
                     <li className="flex items-center gap-2.5">
                        <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
-                       <span className="text-[14.5px] font-medium text-foreground">Vitamin D</span>
-                       <span className="text-[11.5px] font-semibold text-orange-600 bg-orange-100 dark:bg-orange-950/50 dark:text-orange-400 px-2 py-0.5 rounded-full">Low</span>
+                       <span className="text-[14px] font-medium text-foreground">Vitamin D</span>
+                       <span className="text-[11px] font-semibold text-orange-600 bg-orange-100 dark:bg-orange-950/50 dark:text-orange-400 px-2 py-0.5 rounded-full">Low</span>
                     </li>
                     <li className="flex items-center gap-2.5">
                        <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
-                       <span className="text-[14.5px] font-medium text-foreground">HbA1c</span>
-                       <span className="text-[11.5px] font-semibold text-emerald-600 bg-emerald-100 dark:bg-emerald-950/50 dark:text-emerald-400 px-2 py-0.5 rounded-full">Normal</span>
+                       <span className="text-[14px] font-medium text-foreground">HbA1c</span>
+                       <span className="text-[11px] font-semibold text-emerald-600 bg-emerald-100 dark:bg-emerald-950/50 dark:text-emerald-400 px-2 py-0.5 rounded-full">Normal</span>
                     </li>
                  </ul>
-                 <p className="text-[13.5px] text-muted-foreground font-medium leading-relaxed">
+                 <p className="text-[13px] text-muted-foreground font-medium leading-relaxed">
                    For detailed insights, go to your <span onClick={() => navigate('/profile')} className="text-primary cursor-pointer font-semibold underline decoration-primary/30 underline-offset-2">health profile</span>
                  </p>
               </div>
