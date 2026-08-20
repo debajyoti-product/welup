@@ -159,8 +159,12 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="flex items-center justify-between pt-3 border-t border-zinc-100 dark:border-white/5 mt-auto">
-                        <span className="text-[15px] font-semibold text-foreground">₹499</span>
-                        <button className="text-[13px] font-semibold bg-primary/10 text-primary px-4 py-1.5 rounded-full transition-transform active:scale-95">Book</button>
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-[15px] font-bold text-foreground">₹499</span>
+                          <span className="text-[11px] font-medium text-muted-foreground line-through">₹999</span>
+                          <span className="text-[9px] font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-500/10 px-1.5 py-0.5 rounded uppercase tracking-wide">50% off</span>
+                        </div>
+                        <button className="text-[12px] font-semibold bg-primary/10 text-primary px-3.5 py-1.5 rounded-full transition-transform active:scale-95 shrink-0">Book</button>
                       </div>
                     </div>
                     {/* Doctor Card 2 */}
@@ -173,8 +177,12 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="flex items-center justify-between pt-3 border-t border-zinc-100 dark:border-white/5 mt-auto">
-                        <span className="text-[15px] font-semibold text-foreground">₹399</span>
-                        <button className="text-[13px] font-semibold bg-primary/10 text-primary px-4 py-1.5 rounded-full transition-transform active:scale-95">Book</button>
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-[15px] font-bold text-foreground">₹399</span>
+                          <span className="text-[11px] font-medium text-muted-foreground line-through">₹799</span>
+                          <span className="text-[9px] font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-500/10 px-1.5 py-0.5 rounded uppercase tracking-wide">50% off</span>
+                        </div>
+                        <button className="text-[12px] font-semibold bg-primary/10 text-primary px-3.5 py-1.5 rounded-full transition-transform active:scale-95 shrink-0">Book</button>
                       </div>
                     </div>
                     {/* Doctor Card 3 */}
@@ -187,8 +195,12 @@ const Home = () => {
                         </div>
                       </div>
                       <div className="flex items-center justify-between pt-3 border-t border-zinc-100 dark:border-white/5 mt-auto">
-                        <span className="text-[15px] font-semibold text-foreground">₹449</span>
-                        <button className="text-[13px] font-semibold bg-primary/10 text-primary px-4 py-1.5 rounded-full transition-transform active:scale-95">Book</button>
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-[15px] font-bold text-foreground">₹449</span>
+                          <span className="text-[11px] font-medium text-muted-foreground line-through">₹899</span>
+                          <span className="text-[9px] font-bold text-emerald-600 bg-emerald-50 dark:bg-emerald-500/10 px-1.5 py-0.5 rounded uppercase tracking-wide">50% off</span>
+                        </div>
+                        <button className="text-[12px] font-semibold bg-primary/10 text-primary px-3.5 py-1.5 rounded-full transition-transform active:scale-95 shrink-0">Book</button>
                       </div>
                     </div>
                  </div>
