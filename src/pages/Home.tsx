@@ -180,7 +180,7 @@ const Home = () => {
                     {/* Doctor Card 3 */}
                     <div className="w-[260px] bg-white dark:bg-zinc-900 rounded-[24px] p-4 shadow-sm border border-zinc-200 dark:border-white/10 shrink-0 flex flex-col">
                       <div className="flex gap-3 items-center mb-4">
-                        <img src="https://images.unsplash.com/photo-1594824436998-058d08ceb8ce?q=80&w=200&h=200&auto=format&fit=crop" className="w-14 h-14 rounded-[16px] object-cover bg-zinc-100" alt="Doctor" />
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=200&h=200&auto=format&fit=crop" className="w-14 h-14 rounded-[16px] object-cover bg-zinc-100" alt="Doctor" />
                         <div>
                           <h4 className="text-[15px] font-semibold text-foreground">Dr. Priya Desai</h4>
                           <p className="text-xs text-muted-foreground font-medium mt-0.5">MBBS, DNB • 10 yrs exp</p>
