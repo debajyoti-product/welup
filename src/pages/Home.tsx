@@ -136,7 +136,7 @@ const Home = () => {
                     </li>
                  </ul>
                  <p className="text-[13px] text-muted-foreground font-medium leading-relaxed">
-                   For detailed insights, go to your <span onClick={() => navigate('/profile')} className="text-primary cursor-pointer font-semibold underline decoration-primary/30 underline-offset-2">health profile</span>
+                   For detailed insights, go to your <span onClick={() => navigate('/profile?unlocked=true')} className="text-primary cursor-pointer font-semibold underline decoration-primary/30 underline-offset-2">health profile</span>
                  </p>
               </div>
               

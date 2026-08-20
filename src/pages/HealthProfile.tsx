@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Sparkles, Lock, ChevronRight, FileUp, Plus, X, Calendar as CalendarIcon, ArrowLeft } from "lucide-react";
 import { Drawer, DrawerContent, DrawerTrigger, DrawerClose } from "@/components/ui/drawer";
 import BottomNav from "@/components/BottomNav";
@@ -33,12 +33,13 @@ const biomarkers = [
 
 const HealthProfile = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [logValue, setLogValue] = useState("");
   const [selectedBiomarker, setSelectedBiomarker] = useState("Fasting Blood Sugar");
   const [bpSystolic, setBpSystolic] = useState("");
   const [bpDiastolic, setBpDiastolic] = useState("");
-  const [isInsightsUnlocked, setIsInsightsUnlocked] = useState(false);
+  const [isInsightsUnlocked, setIsInsightsUnlocked] = useState(searchParams.get("unlocked") === "true");
 
   const handleLogSubmit = () => {
     // Mock save
