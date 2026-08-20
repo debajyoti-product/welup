@@ -116,7 +116,7 @@ const Home = () => {
           {hasReport ? (
             <motion.div variants={itemVariant} className="flex-1 flex flex-col overflow-y-auto hide-scrollbar -mx-5 px-5 space-y-5 pb-2">
               {/* Health Overview */}
-              <div className="bg-white/60 dark:bg-white/5 rounded-[22px] py-4 px-4.5 shadow-sm border border-white/50 dark:border-white/10 backdrop-blur-md">
+              <div className="bg-white/60 dark:bg-white/5 rounded-[24px] p-4 shadow-sm border border-white/50 dark:border-white/10 backdrop-blur-md">
                  <h3 className="text-[14.5px] font-semibold text-foreground mb-3">Here's an overview of your health</h3>
                  <ul className="space-y-2 mb-3.5">
                     <li className="flex items-center gap-2.5">
