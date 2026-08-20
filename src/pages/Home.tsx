@@ -145,9 +145,9 @@ const Home = () => {
                  <p className="text-[14.5px] font-medium text-foreground px-1 leading-relaxed">
                    Based on your report, we suggest a doctor consultation specializing in <span className="font-semibold text-primary">General health</span>
                  </p>
-                 <div className="flex gap-3 overflow-x-auto pb-4 snap-x -mx-5 px-5 hide-scrollbar">
+                 <div className="flex gap-3 overflow-x-auto pb-4 -mx-5 px-5 hide-scrollbar">
                     {/* Doctor Card 1 */}
-                    <div className="w-[260px] snap-center bg-white dark:bg-zinc-900 rounded-[24px] p-4 shadow-sm border border-emerald-500/30 dark:border-emerald-500/30 shrink-0 flex flex-col relative overflow-hidden">
+                    <div className="w-[260px] bg-white dark:bg-zinc-900 rounded-[24px] p-4 shadow-sm border border-emerald-500/30 dark:border-emerald-500/30 shrink-0 flex flex-col relative overflow-hidden">
                       <div className="absolute top-0 left-0 bg-emerald-500 text-white text-[9px] font-bold px-2.5 py-0.5 rounded-br-[10px] tracking-wide">
                         RECOMMENDED
                       </div>
@@ -164,7 +164,7 @@ const Home = () => {
                       </div>
                     </div>
                     {/* Doctor Card 2 */}
-                    <div className="w-[260px] snap-center bg-white dark:bg-zinc-900 rounded-[24px] p-4 shadow-sm border border-zinc-200 dark:border-white/10 shrink-0 flex flex-col">
+                    <div className="w-[260px] bg-white dark:bg-zinc-900 rounded-[24px] p-4 shadow-sm border border-zinc-200 dark:border-white/10 shrink-0 flex flex-col">
                       <div className="flex gap-3 items-center mb-4">
                         <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=200&h=200&auto=format&fit=crop" className="w-14 h-14 rounded-[16px] object-cover bg-zinc-100" alt="Doctor" />
                         <div>
@@ -174,6 +174,20 @@ const Home = () => {
                       </div>
                       <div className="flex items-center justify-between pt-3 border-t border-zinc-100 dark:border-white/5 mt-auto">
                         <span className="text-[15px] font-semibold text-foreground">₹399</span>
+                        <button className="text-[13px] font-semibold bg-primary/10 text-primary px-4 py-1.5 rounded-full transition-transform active:scale-95">Book</button>
+                      </div>
+                    </div>
+                    {/* Doctor Card 3 */}
+                    <div className="w-[260px] bg-white dark:bg-zinc-900 rounded-[24px] p-4 shadow-sm border border-zinc-200 dark:border-white/10 shrink-0 flex flex-col">
+                      <div className="flex gap-3 items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1594824436998-058d08ceb8ce?q=80&w=200&h=200&auto=format&fit=crop" className="w-14 h-14 rounded-[16px] object-cover bg-zinc-100" alt="Doctor" />
+                        <div>
+                          <h4 className="text-[15px] font-semibold text-foreground">Dr. Priya Desai</h4>
+                          <p className="text-xs text-muted-foreground font-medium mt-0.5">MBBS, DNB • 10 yrs exp</p>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between pt-3 border-t border-zinc-100 dark:border-white/5 mt-auto">
+                        <span className="text-[15px] font-semibold text-foreground">₹449</span>
                         <button className="text-[13px] font-semibold bg-primary/10 text-primary px-4 py-1.5 rounded-full transition-transform active:scale-95">Book</button>
                       </div>
                     </div>
