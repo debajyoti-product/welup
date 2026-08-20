@@ -118,31 +118,25 @@ const Home = () => {
               {/* Health Overview */}
               <div className="bg-white/60 dark:bg-white/5 rounded-[24px] p-5 shadow-sm border border-white/50 dark:border-white/10 backdrop-blur-md">
                  <h3 className="text-[15px] font-semibold text-foreground mb-4">Here's an overview of your health</h3>
-                 <ul className="space-y-3.5 mb-5">
-                    <li className="flex items-center justify-between">
-                       <div className="flex items-center gap-3">
-                          <div className="w-[30px] h-[30px] rounded-full bg-red-100 text-red-600 flex items-center justify-center shrink-0"><Activity className="w-4 h-4" /></div>
-                          <span className="text-[14px] font-medium text-foreground">Cholesterol</span>
-                       </div>
-                       <span className="text-xs font-semibold text-red-600 bg-red-100 px-2.5 py-1 rounded-full">High</span>
+                 <ul className="space-y-3 mb-5">
+                    <li className="flex items-center gap-2.5">
+                       <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
+                       <span className="text-[14.5px] font-medium text-foreground">Cholesterol</span>
+                       <span className="text-[11.5px] font-semibold text-red-600 bg-red-100 dark:bg-red-950/50 dark:text-red-400 px-2 py-0.5 rounded-full">High</span>
                     </li>
-                    <li className="flex items-center justify-between">
-                       <div className="flex items-center gap-3">
-                          <div className="w-[30px] h-[30px] rounded-full bg-orange-100 text-orange-600 flex items-center justify-center shrink-0"><Sun className="w-4 h-4" /></div>
-                          <span className="text-[14px] font-medium text-foreground">Vitamin D</span>
-                       </div>
-                       <span className="text-xs font-semibold text-orange-600 bg-orange-100 px-2.5 py-1 rounded-full">Low</span>
+                    <li className="flex items-center gap-2.5">
+                       <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
+                       <span className="text-[14.5px] font-medium text-foreground">Vitamin D</span>
+                       <span className="text-[11.5px] font-semibold text-orange-600 bg-orange-100 dark:bg-orange-950/50 dark:text-orange-400 px-2 py-0.5 rounded-full">Low</span>
                     </li>
-                    <li className="flex items-center justify-between">
-                       <div className="flex items-center gap-3">
-                          <div className="w-[30px] h-[30px] rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0"><Droplets className="w-4 h-4" /></div>
-                          <span className="text-[14px] font-medium text-foreground">HbA1c</span>
-                       </div>
-                       <span className="text-xs font-semibold text-emerald-600 bg-emerald-100 px-2.5 py-1 rounded-full">Normal</span>
+                    <li className="flex items-center gap-2.5">
+                       <span className="w-1.5 h-1.5 rounded-full bg-muted-foreground/60 shrink-0" />
+                       <span className="text-[14.5px] font-medium text-foreground">HbA1c</span>
+                       <span className="text-[11.5px] font-semibold text-emerald-600 bg-emerald-100 dark:bg-emerald-950/50 dark:text-emerald-400 px-2 py-0.5 rounded-full">Normal</span>
                     </li>
                  </ul>
                  <p className="text-[13.5px] text-muted-foreground font-medium leading-relaxed">
-                   For detailed insights, go to your <span onClick={() => navigate('/profile')} className="text-primary cursor-pointer font-semibold underline decoration-primary/30 underline-offset-2">health hub</span>
+                   For detailed insights, go to your <span onClick={() => navigate('/profile')} className="text-primary cursor-pointer font-semibold underline decoration-primary/30 underline-offset-2">health profile</span>
                  </p>
               </div>
               
