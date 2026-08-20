@@ -91,17 +91,20 @@ const Home = () => {
             className="text-xl font-bold text-foreground mb-4 px-1"
           >
             {hasReport ? (
-              <div className="flex flex-col gap-3 w-full">
-                <span>Report uploaded:</span>
-                <div className="flex items-center justify-between bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-white/10 rounded-full pl-3 pr-2 py-1.5 shadow-sm max-w-[180px]">
-                  <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center shrink-0">
-                      <FileText className="w-3.5 h-3.5" />
+              <div className="flex items-center flex-wrap gap-2 w-full">
+                <span className="text-xl font-bold text-foreground shrink-0">Report uploaded:</span>
+                <div className="inline-flex items-center justify-between gap-1.5 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-white/10 rounded-full pl-2 pr-1.5 py-1 shadow-sm shrink-0">
+                  <div className="flex items-center gap-1.5">
+                    <div className="w-5 h-5 rounded-full bg-red-100 dark:bg-red-950/50 text-red-600 flex items-center justify-center shrink-0">
+                      <FileText className="w-3 h-3" />
                     </div>
-                    <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">report.pdf</span>
+                    <span className="text-xs font-medium text-zinc-700 dark:text-zinc-300">report.pdf</span>
                   </div>
-                  <button onClick={() => setHasReport(false)} className="w-6 h-6 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 flex items-center justify-center transition-colors">
-                    <X className="w-4 h-4 text-zinc-400" />
+                  <button 
+                    onClick={() => setHasReport(false)} 
+                    className="w-5 h-5 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 flex items-center justify-center transition-colors text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200"
+                  >
+                    <X className="w-3 h-3" />
                   </button>
                 </div>
               </div>
