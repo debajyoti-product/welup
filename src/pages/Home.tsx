@@ -143,7 +143,7 @@ const Home = () => {
               {/* Doctor Suggestion */}
               <div className="space-y-4 pb-2">
                  <p className="text-[14.5px] font-medium text-foreground px-1 leading-relaxed">
-                   Based on your report, we suggest a consultation specializing in <span className="font-semibold text-primary">General health</span>
+                   Based on your report, we suggest a doctor consultation specializing in <span className="font-semibold text-primary">General health</span>
                  </p>
                  <div className="flex gap-3 overflow-x-auto pb-4 snap-x -mx-5 px-5 hide-scrollbar">
                     {/* Doctor Card 1 */}
